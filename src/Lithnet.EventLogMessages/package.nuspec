@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Lithnet.EventLogMessages</id>
+    <version>1.0.0.4</version>
+    <title>Lithnet Event Log Message Resource DLL</title>
+    <authors>Lithnet</authors>
+    <owners>Lithnet</owners>
+    <description>
+      Provides a generic message resource DLL for event log messages
+    </description>
+    <releaseNotes></releaseNotes>
+    <summary/>
+    <language>en-US</language>
+    <projectUrl>https://github.com/lithnet/eventlogmessages</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright></copyright>
+    <dependencies>
+    </dependencies>
+    <references></references>
+    <!-- This is important ! -->
+  </metadata>
+  <files>
+    <!-- Note that now, binaries are placed conventionally under a directory named build -->
+    <file src="..\x64\Release\EventLogMessages.dll" target="lib\win-x64"/>
+    <file src="Lithnet.EventLogMessages.targets" target="build"/>
+  </files>
+</package>
